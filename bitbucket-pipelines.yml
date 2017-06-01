@@ -1,8 +1,9 @@
 image: node:latest
 
 pipelines:
-  default:
-    - step:
-        script:
-          - npm install
-          - npm test
+  branches:
+    master:
+      - step:
+          script:
+            - npm install
+            - npm test
