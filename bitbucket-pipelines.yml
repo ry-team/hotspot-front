@@ -1,0 +1,8 @@
+image: node:alpine
+
+pipelines:
+  default:
+    - step:
+        script:
+          - npm install
+          - npm test
