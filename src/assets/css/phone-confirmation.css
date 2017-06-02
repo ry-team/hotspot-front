@@ -1,0 +1,126 @@
+.main {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  padding: 0 40px;
+}
+
+.logo-image {
+  width: 110px;
+}
+
+.phone-block {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-input-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.phone-input-block label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.phone-input-block input {
+  border: none;
+  font-size: 20px;
+}
+
+.phone-input-block input:focus {
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .main {
+    height: 90%;
+  }
+
+  .title {
+    padding: 0;
+  }
+
+  .phone-input-block input {
+    border: none;
+    font-size: 15px;
+  }
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  max-width: 220px;
+  height: 40px;
+  color: #FFF;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.send-code-button-block {
+  text-align: right;
+  flex: 1;
+}
+
+.send-code-button {
+  background-color: #FBA67F;
+}
+
+.proceed-button {
+  background-color: #418BCA;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.controls > div {
+  margin-top: 20px;
+}
+
+.submit-button {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.access-type-select {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.access-type-select input {
+  margin-right: 10px;
+}
+
+.radio-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
