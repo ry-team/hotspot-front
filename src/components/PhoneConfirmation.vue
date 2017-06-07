@@ -68,10 +68,9 @@
   import MaskedInput from 'vue-masked-input';
 
   export default {
-    name: 'hello',
+    name: 'phone-confirmation',
     data() {
       return {
-        msg: 'Welcome to Your Vue.js App',
         phone: null,
       };
     },
