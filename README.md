@@ -1,6 +1,8 @@
 # ry-caravan-front
 
-> A Vue.js project
+> Caravan group Wi-Fi HotSpot frontend
+
+[ ![Codeship Status for ry-team/hotspot-front](https://app.codeship.com/projects/eb1e0c30-2d6e-0135-0f9b-361784b30fbb/status?branch=master)](https://app.codeship.com/projects/224695)
 
 ## Build Setup
 
@@ -23,5 +25,3 @@ npm run unit
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

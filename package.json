@@ -1,6 +1,6 @@
 {
   "name": "ry-caravan-front",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A Vue.js project",
   "author": "Timur <fearintino@mail.ru>",
   "private": true,
@@ -13,6 +13,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "vue": "^2.2.6",
     "vue-masked-input": "^0.5.1",
     "vue-router": "^2.3.1"
