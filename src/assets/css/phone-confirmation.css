@@ -22,19 +22,6 @@
   width: 110px;
 }
 
-.phone-block {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.phone-input-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .phone-input-block label {
   text-transform: uppercase;
   font-weight: bold;
@@ -42,12 +29,35 @@
   margin-bottom: 10px;
 }
 
-.phone-input-block input {
-  border: none;
-  font-size: 20px;
+.controls > div {
+  margin-top: 20px;
 }
 
-.phone-input-block input:focus {
+.plan-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-row-right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row-right input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-row-right input:focus {
   outline: none;
 }
 
@@ -60,67 +70,10 @@
     padding: 0;
   }
 
-  .phone-input-block input {
+  .input-row-right input {
     border: none;
     font-size: 15px;
+    border-bottom: 1px solid lightgray;
   }
 }
 
-.button {
-  border: none;
-  border-radius: 5px;
-  outline: none;
-  width: 100%;
-  max-width: 220px;
-  height: 40px;
-  color: #FFF;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.send-code-button-block {
-  text-align: right;
-  flex: 1;
-}
-
-.send-code-button {
-  background-color: #FBA67F;
-}
-
-.proceed-button {
-  background-color: #418BCA;
-}
-
-.controls {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.controls > div {
-  margin-top: 20px;
-}
-
-.submit-button {
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.access-type-select {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.access-type-select input {
-  margin-right: 10px;
-}
-
-.radio-button-row {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
