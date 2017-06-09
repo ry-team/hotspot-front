@@ -6,6 +6,6 @@ describe('PhoneConfirmation.vue', () => {
     const Constructor = Vue.extend(PhoneConfirmation);
     const vm = new Constructor().$mount();
     expect(vm.$el.querySelector('.title h2').textContent)
-      .to.equal('Подтверждение номера');
+      .to.equal('Caravan HotSpot Wi-Fi');
   });
 });
